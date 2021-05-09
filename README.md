@@ -24,11 +24,12 @@ mvn clean test -Denvironment=dev
 mvn clean test -Denvironment=dev -Dgroups=<Tag Name>
 ```
 ####Tag:
+```sh 
     All             : All the Testcase
     Positive        : Positive Scenarios
     Negative        : Negative Scenarios
     AssignmentTask  : Given assignment Testcase
     Posts           : All Posts APIs
     Users           : All Users APIs
-
+```
 
